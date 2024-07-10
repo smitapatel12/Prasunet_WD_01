@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Landing Page using HTML, CSS & Javascript</title>
+
+    <!-- ==== STYLE.CSS ==== -->
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <!-- ====  REMIXICON CDN ==== -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+
+    <!-- ==== ANIMATE ON SCROLL CSS CDN  ==== -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  </head>
+  <body>
+    <!-- ==== HEADER ==== -->
+    <header id="home" class="container header">
+      <!-- ==== NAVBAR ==== -->
+      <nav class="nav">
+        <div class="logo">
+          <h2>CodeLite.</h2>
+        </div>
+
+        <div class="nav_menu" id="nav_menu">
+          <button class="close_btn" id="close_btn">
+            <i class="ri-close-fill"></i>
+          </button>
+
+          <ul class="nav_menu_list">
+            <li class="nav_menu_item">
+              <a href="#home" class="nav_menu_link">Home</a>
+            </li>
+            <li class="nav_menu_item">
+              <a href="#about" class="nav_menu_link">about</a>
+            </li>
+            <li class="nav_menu_item">
+              <a href="#service" class="nav_menu_link">service</a>
+            </li>
+            <li class="nav_menu_item">
+              <a href="#contact" class="nav_menu_link">contact</a>
+            </li>
+          </ul>
+        </div>
+
+        <button class="toggle_btn" id="toggle_btn">
+          <i class="ri-menu-line"></i>
+        </button>
+      </nav>
+    </header>
+
+    <section class="wrapper">
+      <div class="container">
+        <div class="grid-cols-2">
+          <div class="grid-item-1">
+            <h1 class="main-heading">
+              Welcome to <span>CodeLite.</span>
+              <br />
+              Develop anything.
+            </h1>
+            <p class="info-text">
+              Build a beautiful, modern website with flexible components built
+              from scratch.
+            </p>
+
+            <div class="btn_wrapper">
+              <button class="btn view_more_btn">
+             <a  href="#service">view all pages</a> <i class="ri-arrow-right-line"></i>
+              </button>
+
+              <button class="btn documentation_btn">documentation</button>
+            </div>
+          </div>
+          <div class="grid-item-2">
+            <div class="team_img_wrapper">
+              <img src="./img/team.svg" alt="team-img" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==== ABOUT SECTION ==== -->
+    <section id="about" class="about wrapper">
+      <div class="container">
+        <h2 class="section-title">About Us</h2>
+        <p class="about-text">
+          Welcome to CodeLite, your ultimate hub for web development excellence. At CodeLite, we are dedicated to empowering developers of all levels to create remarkable, responsive websites with ease. Our comprehensive toolkit offers cutting-edge tools, resources, and support, ensuring you have everything you need to bring your web projects to life. Join our community of innovators and take your development skills to new heights with CodeLite.
+        </p>
+      </div>
+    </section>
+
+    <!-- ==== SERVICE SECTION ==== -->
+    <section id="service" class="service wrapper">
+      <div class="container">
+        <h2 class="section-title">Our Services</h2>
+        <div class="grid-cols-3">
+          <div class="grid-col-item">
+            <div class="icon">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 7h18M3 12h18m-7 5h7" />
+              </svg>
+            </div>
+            <div class="service_info">
+              <span class="title">Web Development</span>
+              <p><br>
+                At CodeLite, we specialize in delivering top-notch web development services that cater to your unique business needs. Our team of experienced developers is adept at creating dynamic, responsive, and user-friendly websites that not only look stunning but also provide an exceptional user experience. From front-end design to back-end development, we ensure every aspect of your website is optimized for performance and scalability. Trust us to transform your vision into a digital reality that drives engagement and growth.
+              </p>
+            </div>
+            
+          <div class="grid-col-item">
+            <div class="icon">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 16c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm5 0c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm5 0c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4z" />
+              </svg>
+            </div>
+            <div class="service_info">
+              <span class="title">Graphic Design</span>
+              <p><br>
+                Our Graphic Design services at CodeLite blend creativity and strategy to deliver visually stunning and impactful designs. Whether you need a brand logo, marketing materials, or a complete visual identity, our team of talented designers is dedicated to crafting designs that resonate with your audience and elevate your brand. We focus on creating unique, memorable, and aesthetically pleasing designs that effectively communicate your message and leave a lasting impression.
+              </p>
+            </div>
+            
+          <div class="grid-col-item">
+            <div class="icon">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 4a1 1 0 011-1h1.293l1.854-1.854a1 1 0 011.414 0L9.293 3H12a1 1 0 011 1v3.293l1.854 1.854a1 1 0 010 1.414L12 12.707V16a1 1 0 01-1 1H7.293l-1.854 1.854a1 1 0 01-1.414 0L3 16.707V14a1 1 0 00-1-1H1a1 1 0 010-2h1a1 1 0 001-1V5a1 1 0 011-1h2z" />
+              </svg>
+            </div>
+            <div class="service_info">
+              <span class="title">Mobile App Development</span>
+              <p><br>
+                Our Mobile App Development services at CodeLite are tailored to bring your app ideas to life with cutting-edge technology and innovative design. Whether you need a native app for iOS or Android, or a cross-platform solution, our experienced developers create apps that are not only visually appealing but also highly functional and user-friendly. We ensure seamless performance and an intuitive user experience, helping you engage your audience on the go.
+              </p>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="wrapper">
+      <div class="container" data-aos="fade-up" data-aos-duration="1000">
+        <div class="grid-cols-3">
+          <div class="grid-col-item">
+            <div class="icon">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
+                />
+              </svg>
+            </div>
+            <div class="featured_info">
+              <span class="title">Built for Developers</span>
+              <p>
+                CodeLite is meticulously crafted with developers in mind, offering a robust set of tools and features that streamline the development process. Our platform supports seamless integration with popular frameworks and libraries, making it easier than ever to build, test, and deploy your projects. With an intuitive interface and comprehensive documentation, CodeLite empowers developers to focus on writing code and bringing their innovative ideas to life.
+              </p>
+            </div>
+            
+          </div>
+          <div class="grid-col-item">
+            <div class="icon">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M17 14v6m-3-3h6M6 10h2a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v2a2 2 0 002 2zm10 0h2a2 2 0 002-2V6a2 2 0 00-2-2h-2a2 2 0 00-2 2v2a2 2 0 002 2zM6 20h2a2 2 0 002-2v-2a2 2 0 00-2-2H6a2 2 0 00-2 2v2a2 2 0 002 2z"
+                />
+              </svg>
+            </div>
+            <div class="featured_info">
+              <span class="title">Designed to be Modern</span>
+              <p>
+                At CodeLite, we prioritize modern design principles to ensure that our platform is not only visually appealing but also highly functional. Our sleek, contemporary interface integrates the latest design trends and user experience best practices, providing an intuitive and engaging environment for developers. By staying ahead of design trends and incorporating cutting-edge features, CodeLite offers a state-of-the-art solution that meets the needs of today's tech-savvy professionals.
+              </p>
+            </div>
+            
+          </div>
+
+          <div class="grid-col-item">
+            <div class="icon">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"
+                />
+              </svg>
+            </div>
+            <div class="featured_info">
+              <span class="title">Documentation for Everything</span>
+          
+              <p>
+                CodeLite offers comprehensive documentation to support every aspect of your development journey. From detailed guides and tutorials to API references and troubleshooting tips, our documentation is designed to provide you with the clarity and assistance you need. Whether you're a beginner or an experienced developer, our thorough resources ensure that you have the knowledge and tools required to tackle any challenge with confidence and efficiency.
+              </p>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==== CONTACT FORM ==== -->
+    <section id="contact" class="contact wrapper">
+      <div class="container">
+        <h2 class="section-title">Contact Us</h2>
+        <form action="#" method="post" class="contact_form">
+          <div class="form_group">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required />
+          </div>
+          <div class="form_group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required />
+          </div>
+          <div class="form_group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+          </div>
+          <button type="submit" class="btn submit_btn">Submit</button>
+        </form>
+      </div>
+    </section>
+
+    <!-- ==== FOOTER SECTION ==== -->
+    <footer class="footer">
+      <div class="footer-content">
+        <div class="thanks-message">
+          <p>Thank you for visiting! We appreciate your support and hope to see you again soon.</p>
+        </div>
+      </div>
+    </footer>
+    
+
+    <!-- ==== ANIMATE ON SCROLL JS CDN -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- ==== GSAP CDN ==== -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js"></script>
+    <!-- ==== SCRIPT.JS ==== -->
+    <script src="./script.js" defer></script>
+  </body>
+</html>
+
